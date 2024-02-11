@@ -1,36 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
 body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.2;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.1;
 
-    min-width: 320px;
+	min-height: 100vh;
 }
 
 .none {
-    display: none !important; 
+	display: none !important;
 }
 
 .hidden {
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
-    width: 0;
-    height: 0;
-    display: block;
-    margin-left: -10000px;
-    background: transparent;
-    font-size: 0;
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	display: block;
+	margin-left: -10000px;
+	background: transparent;
+	font-size: 0;
 }
 
 /* Grid */
 
 .container {
+	max-width: 1200px;
 
-    
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+.bottom-conteiner {
+	max-width: 1712px;
+	margin: 0 auto;
+}
+
+.main {
+	flex-grow: 1;
+
+	height: 200px;
+	padding-top: 103px;
+}
+
+a {
+	color: inherit;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.logo__img {
+	width: 67px;
+	height: 83px;
+}
+.logo__info {
+	font-size: 15px;
+	font-weight: 300;
+}
+.logo__info-title {
+	display: block;
+	margin-bottom: 5px;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+}
+
+.title {
+	font-size: 38px;
+}

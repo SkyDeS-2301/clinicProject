@@ -1,0 +1,25 @@
+.start {
+    background: #404161;
+}
+.start .container {
+	display: flex;
+	justify-content: end;
+	padding: 50px 0;
+}
+.start__inner {
+	max-width: 741px;
+}
+.start__title {
+	position: relative;
+	padding-bottom: 15px;
+}
+.start__title::before {
+	position: absolute;
+	content: "";
+
+	width: 67px;
+	height: 2px;
+	background-color: #135299;
+	left: 0;
+	bottom: 0;
+}

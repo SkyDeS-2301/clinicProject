@@ -1,3 +1,91 @@
 @import url(./reset.css);
 @import url(./base.css);
 
+.header,
+.footer {
+	min-height: 70px;
+	background-color: #ffffff;
+}
+.header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	padding: 10px 0;
+}
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__list {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.nav__item {
+	display: inline-block;
+	padding: 10px;
+
+	font-weight: 300;
+
+	transition: all 0.3s;
+}
+.nav__item:hover {
+	color: #fff;
+	background-color: #3b3b3b;
+}
+
+.tel {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.tel__icon {
+	width: 31px;
+	height: 31px;
+}
+.tel__couple {
+	display: grid;
+	row-gap: 5px;
+}
+.tel__number {
+	display: block;
+
+	font-size: 28px;
+	font-weight: 400;
+	transition: all 0.3s;
+}
+.tel__number:hover {
+	text-decoration: underline;
+}
+.footer {
+	padding: 20px 0;
+}
+.footer__top {
+	margin-bottom: 15px;
+}
+.footer__top-inner {
+	padding-left: 20px;
+}
+.footer__top-info {
+	font-weight: 300;
+	padding-bottom: 15px;
+
+	border-bottom: 1px solid #312f2f;
+}
+.footer__top-line {
+	background-color: #000;
+	height: 1px;
+}
+.footer__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-bottom: 20px;
+}
+.footer__bottom-info {
+	text-align: center;
+	font-weight: 300;
+}
