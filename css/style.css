@@ -1,11 +1,6 @@
 @import url(./reset.css);
 @import url(./base.css);
 
-.header,
-.footer {
-	min-height: 70px;
-	background-color: #ffffff;
-}
 .header {
 	position: fixed;
 	left: 0;

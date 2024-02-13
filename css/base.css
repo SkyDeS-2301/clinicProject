@@ -45,15 +45,22 @@ body {
 	margin: 0 auto;
 }
 
-.main-section .container {
-	padding: 50px 0;
+.header,
+.footer {
+	min-height: 70px;
+	background-color: #ffffff;
 }
 
 .main {
 	flex-grow: 1;
-
+	
+	background: #bebebe;
 	height: 200px;
 	padding-top: 103px;
+}
+
+.main-section .container {
+	padding: 50px 0;
 }
 
 a {
